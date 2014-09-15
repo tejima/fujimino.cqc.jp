@@ -1,0 +1,129 @@
+body{
+	background-image: url(../images/crosspaper.gif);
+}
+.tj-trans{
+	margin-top: 20px;
+}
+
+/*.entrysheet{
+	background-color: #ffffff;
+	border-color: #333333;
+	border-width: 5px;
+}*/
+.row-schedule{
+  margin-right: 0;
+  margin-left: 0;
+}
+.caption-bukatsu{
+  height: 200px;
+}
+.panel-schedule{
+  min-height: 300px;
+
+}
+.thumbnail-goods{
+  border: 0;
+  margin-bottom: 10px;
+  height: 200px;
+}
+.thumbnail-goods .caption{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.thumbnail-goods h3{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.entrysheet .panel{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.entrysheet h1{
+	letter-spacing: 50px;
+	text-decoration: underline;
+	font-size: 50px;
+	margin-bottom: 80px;
+}
+.entrysheet p{
+	margin-bottom: 70px;	
+}
+.tj-h1 {
+	margin-bottom: 15px;
+}
+.tj-h1 h1{
+	margin-top: 35px;
+}
+
+.tj-h2 h2{
+	background-color: #efefef;
+	height: 50px;
+	padding: 9px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/* ===== Navbar ===== */
+
+.navbar-inverse {
+  background-color: #515151;
+  border: none;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  font-weight: bold;
+  background-color: #515151;
+}
+.navbar-inverse .navbar-brand {
+  color: #EEEEEE;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #EEEEEE;
+}
+.navbar-inverse {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+  border-top-color: #EEEEEE;
+  border-bottom-color: #EEEEEE;
+}
+.navbar-inverse .navbar-nav > .open > a .caret,
+.navbar-inverse .navbar-nav > .open > a:hover .caret,
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+  border-top-color: #515151;
+  border-bottom-color: #515151;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #EEEEEE;
+  color: #515151;
+}
+.dropdown-menu {
+  background-color: #EEEEEE;
+  border: 1px solid #D6D6D6;
+  border-top-color: #EEEEEE;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.dropdown-menu > li > a {
+  color: #515151;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #FFF;
+  background-color: #515151;
+}
+/* ===== Responsive CSS ===== */
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #333;
+}
