@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>ふじみ野ログハウス</title>
 
     <!-- Bootstrap core CSS -->
@@ -14,13 +14,20 @@
     <link href="css/custom.css" rel="stylesheet">
     <script src="js/holder.js"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-52375322-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-52375322-1', 'auto');
+        ga('send', 'pageview');
     </script>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -28,528 +35,657 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+</head>
 
-  <body>
+<body>
+    <div class="container tj-trans">
+        <div class="row">
+            <div class="container">
+                <div class="row tj-h1">
+                    <div class="col-xs-12 col-sm-8">
+                        <h1>
 
-<div class="container tj-trans">
-  <div class="row">
-    <div class="container">
-      <div class="row tj-h1">
-        <div class="col-xs-12 col-sm-8">
-          <h1>
             <img src="images/h1.png" class="img-responsive"></h1>
-        </div>
-        <div class="col-xs-8 col-sm-4 pull-right">
-          <img src="https://dl.dropboxusercontent.com/u/151520/2014/logo.png" class="logo pull-right img-responsive"></div>
-      </div>
+                    </div>
+                    <div class="col-xs-8 col-sm-4 pull-right">
+                        <img src="https://dl.dropboxusercontent.com/u/151520/2014/logo.png" class="logo pull-right img-responsive">
+                    </div>
+                </div>
 
-      <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/f56886408.jpg" class="img-responsive">
+                                    <div class="carousel-caption hidden-xs">９月に行った流しそうめん。竹やぶから竹を切るところからすべて自前で作成。捕まえ残ったそうめんをダイレクトキャッチ。</div>
+                                </div>
 
-            <!-- <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-          -->
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="images/f56886408.jpg" class="img-responsive">
-              <div class="carousel-caption hidden-xs">９月に行った流しそうめん。竹やぶから竹を切るところからすべて自前で作成。捕まえ残ったそうめんをダイレクトキャッチ。</div>
+                                <div class="item">
+                                    <img src="images/f49896648.jpg" class="img-responsive">
+                                    <div class="carousel-caption hidden-xs">2013年夏野菜の収穫。トマト、ナス、きゅうり、オクラなどが採れました。畑は猛烈に暑いので、水鉄砲で冷やしながら。</div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/f31314756.jpg" class="img-responsive">
+                                    <div class="carousel-caption hidden-xs">
+                                        我らが拠点のログハウス。どんどん設備を充実させています。去年はプロジェクター、ゲーム機、掘りごたつ、カラオケマイク、スピーカーなどの設備が追加されました。
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/f56173624.jpg" class="img-responsive">
+                                    <div class="carousel-caption hidden-xs">
+                                        徹夜の開発イベント「ハッカソン」。ログハウスの中で、みんなが思い思いにクリエイティブな活動に打ち込みます。開発をしたり、調査をしたり、夜食をつくったり、ときには力尽きたり、、。
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="images/f52861648.jpg" class="img-responsive">
+                                    <div class="carousel-caption hidden-xs">
+                                        秋は栗。その場で蒸かしたり、おこわにしていただきます。
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tj-h2">
+                    <div class="col-md-12">
+                        <h2>部活</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
+                        <div class="thumbnail">
+                            <img src="images/f48827448.jpg" class="img-responsive" alt="...">
+                            <div class="caption caption-bukatsu">
+                                <h3>農園部</h3>
+                                <p>
+                                    ふじみ野ログハウスに併設された畑で、いろいろな野菜を栽培します。2013年は、じゃがいも、ネギ、トマト、ナス、オクラ、白菜、水菜など、10種類ほどの野菜を作りました。3〜12月までの10ヶ月間活動しています。
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
+                        <div class="thumbnail">
+                            <img src="images/kuzu05.jpg" class="img-responsive" alt="...">
+                            <div class="caption caption-bukatsu">
+                                <h3>クズ部</h3>
+                                <p>
+                                    クリエイティブなクズになろう！をキャッチコピーに、仲間と集まって活動しています。2013年はすっぽん鍋、TRPG、カラオケ、竹垣づくりなどを体験しました。もちろん酒と料理はデフォルトです。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
+                        <div class="thumbnail">
+                            <img src="images/trpg01.jpg" class="img-responsive" alt="...">
+                            <div class="caption caption-bukatsu">
+                                <h3>TRPG部</h3>
+                                <p>
+                                    テーブルトークRPG（TRPG）を、泊まりがけで楽しむ部活動です。毎月一回土曜日から日曜日にかけて開催しています。
+                                    <br>サイト：
+                                    <a href="http://trpgsns.jp/openpne/web">http://trpgsns.jp/openpne/web</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row tj-h2">
+                    <div class="col-md-12">
+                        <h2>設備</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/projector.jpg" alt="...">
+                            <div class="caption">
+                                <h3>プロジェクター</h3>
+                                <p>100インチのプロジェクターです。PS3 Wii AppleTVがつながっています。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/loft.jpg" alt="...">
+                            <div class="caption">
+                                <h3>ロフト</h3>
+                                <p>ログハウスの2階部分です。昼寝したり、ボードゲームをやったりするのに使います。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/living.jpg" alt="...">
+                            <div class="caption">
+                                <h3>リビング</h3>
+                                <p>食事をしたり、ゲームをしたりするメインのリビングです。プロジェクターや掘りごたつもここにおいてあります。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/kitchen.jpg" alt="...">
+                            <div class="caption">
+                                <h3>キッチン</h3>
+                                <p>IH2基、レンジ、オーブンがあるキッチンです。畑でとった野菜をここですぐに調理して食べます。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/stove.jpg" alt="...">
+                            <div class="caption">
+                                <h3>薪ストーブ</h3>
+                                <p>大人数で炊き出しをしたり、バームクーヘンを焼いたり、鍋を作ったりします。冬に活躍。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/kotatsu.jpg" alt="...">
+                            <div class="caption">
+                                <h3>露天掘りごたつ</h3>
+                                <p>掘りごたつはポータブルなので、ベランダのデッキに出すこともできます。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/games.jpg" alt="...">
+                            <div class="caption">
+                                <h3>ボードゲーム</h3>
+                                <p>カタン、カルカソンヌ、モノポリー、人生ゲームなどがあります。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/farm.jpg" alt="...">
+                            <div class="caption">
+                                <h3>畑</h3>
+                                <p>農園部がじゃがいも、トマト、玉ねぎ、なすなどを育てています。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/noukigu.jpg" alt="...">
+                            <div class="caption">
+                                <h3>農機具</h3>
+                                <p>鎌、スキ、クワから、トラクターまでひと通りの農機具が揃っています。</p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail thumbnail-goods">
+                            <img class="img-responsive" src="images/CIMG6954.jpg" alt="...">
+                            <div class="caption">
+                                <h3>エコパ温水プール</h3>
+                                <p>ログハウスのすぐ裏に温水プール＆お風呂＆多目的ホール施設があります。ホールは格安でレンタルできます。<a href="http://www.eco-pa.jp">エコパ</a>
+                                </p>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="row tj-h2">
+                    <div class="col-md-12">
+                        <h2>スケジュール</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">01月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">04日 O</span>
+                                <br>
+                                <span class="text-danger">05日 O</span>
+                                <br>
+                                <span class="text-primary">11日 O</span>
+                                <br>
+                                <span class="text-danger">12日 O</span>
+                                <br>
+                                <span class="text-danger">13日 O</span>
+                                <br>
+                                <span class="text-primary">18日 O</span>
+                                <br>
+                                <span class="text-danger">19日 O</span>
+                                <br>
+                                <span class="text-primary">25日 クズ部</span>
+                                <br>
+                                <span class="text-danger">26日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">02月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">01日 手嶋</span>
+                                <br>
+                                <span class="text-danger">02日 手嶋</span>
+                                <br>
+                                <span class="text-primary">08日 O</span>
+                                <br>
+                                <span class="text-danger">09日 O</span>
+                                <br>
+                                <span class="text-danger">11日 O</span>
+                                <br>
+                                <span class="text-primary">15日 X</span>
+                                <br>
+                                <span class="text-danger">16日 X</span>
+                                <br>
+                                <span class="text-primary">22日 X</span>
+                                <br>
+                                <span class="text-danger">23日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">03月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">01日 クズ部</span>
+                                <br>
+                                <span class="text-danger">02日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">08日 O</span>
+                                <br>
+                                <span class="text-danger">09日 O</span>
+                                <br>
+                                <span class="text-primary">15日 O</span>
+                                <br>
+                                <span class="text-danger">16日 O</span>
+                                <br>
+                                <span class="text-danger">21日 クズ部 大合宿</span>
+                                <br>
+                                <span class="text-primary">22日 クズ部 大合宿</span>
+                                <br>
+                                <span class="text-danger">23日 クズ部 大合宿</span>
+                                <br>
+                                <span class="text-primary">29日 O</span>
+                                <br>
+                                <span class="text-danger">30日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">04月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">05日 O</span>
+                                <br>
+                                <span class="text-danger">06日 O</span>
+                                <br>
+                                <span class="text-primary">12日 TRPG部 オフラインセッション</span>
+                                <br>
+                                <span class="text-danger">13日 TRPG部 オフラインセッション</span>
+                                <br>
+                                <span class="text-primary">19日 O</span>
+                                <br>
+                                <span class="text-danger">20日 O</span>
+                                <br>
+                                <span class="text-primary">26日 O</span>
+                                <br>
+                                <span class="text-danger">27日 O</span>
+                                <br>
+                                <span class="text-danger">29日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">05月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">03日 O</span>
+                                <br>
+                                <span class="text-danger">04日 O</span>
+                                <br>
+                                <span class="text-danger">05日 O</span>
+                                <br>
+                                <span class="text-danger">06日 O</span>
+                                <br>
+                                <span class="text-primary">10日 TRPG部 オフラインセッション</span>
+                                <br>
+                                <span class="text-danger">11日 TRPG部 オフラインセッション</span>
+                                <br>
+                                <span class="text-primary">17日 O</span>
+                                <br>
+                                <span class="text-danger">18日 O</span>
+                                <br>
+                                <span class="text-primary">24日 クズ部 森林公園遠足</span>
+                                <br>
+                                <span class="text-danger">25日 クズ部 森林公園遠足</span>
+                                <br>
+                                <span class="text-primary">31日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">06月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-danger">01日 O</span>
+                                <br>
+                                <span class="text-primary">07日 O</span>
+                                <br>
+                                <span class="text-danger">08日 O</span>
+                                <br>
+                                <span class="text-primary">14日 O</span>
+                                <br>
+                                <span class="text-danger">15日 O</span>
+                                <br>
+                                <span class="text-primary">21日 クズ部 竹垣作成</span>
+                                <br>
+                                <span class="text-danger">22日 O</span>
+                                <br>
+                                <span class="text-primary">28日 フリー(現地見学OK)</span>
+                                <br>
+                                <span class="text-danger">29日 だてモノ</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">07月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">05日 O</span>
+                                <br>
+                                <span class="text-danger">06日 O</span>
+                                <br>
+                                <span class="text-primary">12日 O</span>
+                                <br>
+                                <span class="text-danger">13日 O</span>
+                                <br>
+                                <span class="text-primary">19日 クズ部</span>
+                                <br>
+                                <span class="text-danger">20日 クズ部</span>
+                                <br>
+                                <span class="text-danger">21日 クズ部</span>
+                                <br>
+                                <span class="text-primary">26日 O</span>
+                                <br>
+                                <span class="text-danger">27日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">08月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">02日 O</span>
+                                <br>
+                                <span class="text-danger">03日 O</span>
+                                <br>
+                                <span class="text-primary">09日 O</span>
+                                <br>
+                                <span class="text-danger">10日 O</span>
+                                <br>
+                                <span class="text-primary">13日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">14日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">15日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">16日 O</span>
+                                <br>
+                                <span class="text-danger">17日 O</span>
+                                <br>
+                                <span class="text-primary">23日 クズ部</span>
+                                <br>
+                                <span class="text-danger">24日 クズ部</span>
+                                <br>
+                                <span class="text-primary">30日 O</span>
+                                <br>
+                                <span class="text-danger">31日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">09月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">06日 O</span>
+                                <br>
+                                <span class="text-danger">07日 O</span>
+                                <br>
+                                <span class="text-primary">13日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-danger">14日 混沌の騎士団 TRPG部</span>
+                                <br>
+                                <span class="text-danger">15日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">20日 O</span>
+                                <br>
+                                <span class="text-danger">21日 O</span>
+                                <br>
+                                <span class="text-danger">23日 O</span>
+                                <br>
+                                <span class="text-primary">27日 クズ部</span>
+                                <br>
+                                <span class="text-danger">28日 クズ部</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">10月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">04日 O</span>
+                                <br>
+                                <span class="text-danger">05日  O</span>
+                                <br>
+                                <span class="text-primary">11日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-danger">12日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-danger">13日 混沌の騎士団 朝 KSKグループ</span>
+                                <br>
+                                <span class="text-primary">18日 O</span>
+                                <br>
+                                <span class="text-danger">19日 O</span>
+                                <br>
+                                <span class="text-primary">25日 O</span>
+                                <br>
+                                <span class="text-danger">26日 O</span>
+                                <br>
+                                <span class="text-danger">31日 発火ソン</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">11月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">01日 発火ソン クズ部</span>
+                                <br>
+                                <span class="text-danger">02日 クズ部</span>
+                                <br>
+                                <span class="text-danger">03日 O</span>
+                                <br>
+                                <span class="text-primary">08日 TRPG部</span>
+                                <br>
+                                <span class="text-danger">09日 TRPG部</span>
+                                <br>
+                                <span class="text-primary">15日 O</span>
+                                <br>
+                                <span class="text-danger">16日 O</span>
+                                <br>
+                                <span class="text-primary">22日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-danger">23日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-danger">24日 混沌の騎士団</span>
+                                <br>
+                                <span class="text-primary">29日 O</span>
+                                <br>
+                                <span class="text-danger">30日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="panel panel-success panel-schedule">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">12月</h3>
+                            </div>
+                            <div class="panel-body" style="min-height: 295px;">
+                                <span class="text-primary">06日 O</span>
+                                <br>
+                                <span class="text-danger">07日 O</span>
+                                <br>
+                                <span class="text-primary">13日 O</span>
+                                <br>
+                                <span class="text-danger">14日 O</span>
+                                <br>
+                                <span class="text-primary">20日 O</span>
+                                <br>
+                                <span class="text-danger">21日 O</span>
+                                <br>
+                                <span class="text-danger">23日 O</span>
+                                <br>
+                                <span class="text-primary">27日 O</span>
+                                <br>
+                                <span class="text-danger">28日 O</span>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row tj-h2">
+                    <div class="col-md-12">
+                        <h2>所在地・連絡先</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-md-6">
+                        <div class="center-block">
+                            <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/hashtag/%E3%81%B5%E3%81%98%E3%81%BF%E9%87%8E%E3%83%AD%E3%82%B0%E3%83%8F%E3%82%A6%E3%82%B9" data-widget-id="426663732450586624">#ふじみ野ログハウス のツイート</a>
+                            <script>
+                                ! function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0],
+                                        p = /^http:/.test(d.location) ? 'http' : 'https';
+                                    if (!d.getElementById(id)) {
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = p + "://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                }(document, "script", "twitter-wjs");
+                            </script>
+                        </div>
+
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>マネージャー紹介</h4>
+                                <p>ふじみ野ログハウスの管理をしている手嶋です。コミュニティ活動を応援するのがライフワークです。「◯◯サークルのオフ会で使いたいんだけど？」なんて感じで、気軽にお問い合わせください。アマチュアクラブ集金サービスの<a href="http://pne.club">PNE.club</a>利用者を優遇します。</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>連絡先</h5>
+                                        <p>名前: 手嶋 守</p>
+                                        <p>Twitter: <a href="https://twitter.com/tejima">@tejima</a>
+                                        </p>
+                                        <p>e-mail: tejima@gmail.com</p>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                        <img src="images/tejima_hondana.jpg" class="img-responsive" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">埼玉県富士見市勝頼 183</div>
+                            <div class="panel-body">
+                                <p>最寄駅：東武東上線ふじみ野駅
+                                    <br>徒歩30分（タクシー1,000円）</p>
+                                <p>迎車はダイヤモンドタクシー 049-248-2255 で「手嶋」または「勝頼183 ログハウス」で。</p>
+                                <p>駅駐輪場にハウス所有の自転車あり（1台）</p>
+                                <img src="http://p.pne.jp/d/201401311823.png" alt="" class="img-responsive">
+                                <a target="_blank" href="http://goo.gl/maps/IHoJV">GoogleMapで開く</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="item">
-              <img src="images/f49896648.jpg" class="img-responsive">
-              <div class="carousel-caption hidden-xs">2013年夏野菜の収穫。トマト、ナス、きゅうり、オクラなどが採れました。畑は猛烈に暑いので、水鉄砲で冷やしながら。</div>
-            </div>
-
-            <div class="item">
-              <img src="images/f31314756.jpg" class="img-responsive">
-              <div class="carousel-caption hidden-xs">
-                我らが拠点のログハウス。どんどん設備を充実させています。去年はプロジェクター、ゲーム機、掘りごたつ、カラオケマイク、スピーカーなどの設備が追加されました。
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="images/f56173624.jpg" class="img-responsive">
-              <div class="carousel-caption hidden-xs">
-                徹夜の開発イベント「ハッカソン」。ログハウスの中で、みんなが思い思いにクリエイティブな活動に打ち込みます。開発をしたり、調査をしたり、夜食をつくったり、ときには力尽きたり、、。
-              </div>
-            </div>
-
-            <div class="item">
-              <img src="images/f52861648.jpg" class="img-responsive">
-              <div class="carousel-caption hidden-xs">
-                秋は栗。その場で蒸かしたり、おこわにしていただきます。
-              </div>
-            </div>
-
-          </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
         </div>
-      </div>
-    </div>
-    <div class="row tj-h2">
-      <div class="col-md-12">
-        <h2>部活</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
-        <div class="thumbnail">
-          <a href="http://green.cqc.jp">
-            <img src="images/f48827448.jpg" class="img-responsive"  alt="..."></a>
-          <div class="caption caption-bukatsu">
-            <h3>農園部</h3>
-            <p>
-              ふじみ野ログハウスに併設された畑で、いろいろな野菜を栽培します。2013年は、じゃがいも、ネギ、トマト、ナス、オクラ、白菜、水菜など、10種類ほどの野菜を作りました。3〜12月までの10ヶ月間活動しています。<br>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
-        <div class="thumbnail">
-            <img src="images/kuzu05.jpg" class="img-responsive" alt="...">
-          <div class="caption caption-bukatsu">
-            <h3>クズ部</h3>
-            <p>
-              クリエイティブなクズになろう！をキャッチコピーに、仲間と集まって活動しています。2013年はすっぽん鍋、TRPG、カラオケ、竹垣づくりなどを体験しました。もちろん酒と料理はデフォルトです。
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-bukatsu">
-        <div class="thumbnail">
-            <img src="images/trpg01.jpg" class="img-responsive" alt="...">
-          <div class="caption caption-bukatsu">
-            <h3>TRPG部</h3>
-            <p>
-              テーブルトークRPG（TRPG）を、泊まりがけで楽しむ部活動です。毎月一回土曜日から日曜日にかけて開催しています。<br>
-              サイト：<a href="http://trpgsns.jp/openpne/web">http://trpgsns.jp/openpne/web</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-
-    <div class="row tj-h2">
-      <div class="col-md-12">
-        <h2>設備</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/projector.jpg" alt="...">
-          <div class="caption">
-            <h3>プロジェクター</h3>
-            <p>100インチのプロジェクターです。PS3 Wii AppleTVがつながっています。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/loft.jpg" alt="...">
-          <div class="caption">
-            <h3>ロフト</h3>
-            <p>ログハウスの2階部分です。昼寝したり、ボードゲームをやったりするのに使います。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/living.jpg" alt="...">
-          <div class="caption">
-            <h3>リビング</h3>
-            <p>食事をしたり、ゲームをしたりするメインのリビングです。プロジェクターや掘りごたつもここにおいてあります。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/kitchen.jpg" alt="...">
-          <div class="caption">
-            <h3>キッチン</h3>
-            <p>IH2基、レンジ、オーブンがあるキッチンです。畑でとった野菜をここですぐに調理して食べます。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/stove.jpg" alt="...">
-          <div class="caption">
-            <h3>薪ストーブ</h3>
-            <p>大人数で炊き出しをしたり、バームクーヘンを焼いたり、鍋を作ったりします。冬に活躍。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/kotatsu.jpg" alt="...">
-          <div class="caption">
-            <h3>露天掘りごたつ</h3>
-            <p>掘りごたつはポータブルなので、ベランダのデッキに出すこともできます。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/games.jpg" alt="...">
-          <div class="caption">
-            <h3>ボードゲーム</h3>
-            <p>カタン、カルカソンヌ、モノポリー、人生ゲームなどがあります。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/farm.jpg" alt="...">
-          <div class="caption">
-            <h3>畑</h3>
-            <p>農園部がじゃがいも、トマト、玉ねぎ、なすなどを育てています。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/noukigu.jpg" alt="...">
-          <div class="caption">
-            <h3>農機具</h3>
-            <p>鎌、スキ、クワから、トラクターまでひと通りの農機具が揃っています。</p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="thumbnail thumbnail-goods">
-          <img class="img-responsive" src="images/CIMG6954.jpg" alt="...">
-          <div class="caption">
-            <h3>エコパ温水プール</h3>
-            <p>ログハウスのすぐ裏に温水プール＆お風呂＆多目的ホール施設があります。ホールは格安でレンタルできます。<a href="http://www.eco-pa.jp">エコパ</a></p>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
-
-    <div class="row tj-h2">
-      <div class="col-md-12">
-        <h2>スケジュール</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">01月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">04日 O</span><br>
-            <span class="text-danger">05日 O</span><br>
-            <span class="text-primary">11日 O</span><br>
-            <span class="text-danger">12日 O</span><br>
-            <span class="text-danger">13日 O</span><br>
-            <span class="text-primary">18日 O</span><br>
-            <span class="text-danger">19日 O</span><br>
-            <span class="text-primary">25日 クズ部</span><br>
-            <span class="text-danger">26日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">02月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">01日 手嶋</span><br>
-            <span class="text-danger">02日 手嶋</span><br>
-            <span class="text-primary">08日 O</span><br>
-            <span class="text-danger">09日 O</span><br>
-            <span class="text-danger">11日 O</span><br>
-            <span class="text-primary">15日 X</span><br>
-            <span class="text-danger">16日 X</span><br>
-            <span class="text-primary">22日 X</span><br>
-            <span class="text-danger">23日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">03月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">01日 クズ部</span><br>
-            <span class="text-danger">02日 TRPG部</span><br>
-            <span class="text-primary">08日 O</span><br>
-            <span class="text-danger">09日 O</span><br>
-            <span class="text-primary">15日 O</span><br>
-            <span class="text-danger">16日 O</span><br>
-            <span class="text-danger">21日 クズ部 大合宿</span><br>
-            <span class="text-primary">22日 クズ部 大合宿</span><br>
-            <span class="text-danger">23日 クズ部 大合宿</span><br>
-            <span class="text-primary">29日 O</span><br>
-            <span class="text-danger">30日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">04月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">05日 O</span><br>
-            <span class="text-danger">06日 O</span><br>
-            <span class="text-primary">12日 TRPG部 オフラインセッション</span><br>
-            <span class="text-danger">13日 TRPG部 オフラインセッション</span><br>
-            <span class="text-primary">19日 O</span><br>
-            <span class="text-danger">20日 O</span><br>
-            <span class="text-primary">26日 O</span><br>
-            <span class="text-danger">27日 O</span><br>
-            <span class="text-danger">29日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">05月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">03日 O</span><br>
-            <span class="text-danger">04日 O</span><br>
-            <span class="text-danger">05日 O</span><br>
-            <span class="text-danger">06日 O</span><br>
-            <span class="text-primary">10日 TRPG部 オフラインセッション</span><br>
-            <span class="text-danger">11日 TRPG部 オフラインセッション</span><br>
-            <span class="text-primary">17日 O</span><br>
-            <span class="text-danger">18日 O</span><br>
-            <span class="text-primary">24日 クズ部 森林公園遠足</span><br>
-            <span class="text-danger">25日 クズ部 森林公園遠足</span><br>
-            <span class="text-primary">31日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">06月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-danger">01日 O</span><br>
-            <span class="text-primary">07日 O</span><br>
-            <span class="text-danger">08日 O</span><br>
-            <span class="text-primary">14日 O</span><br>
-            <span class="text-danger">15日 O</span><br>
-            <span class="text-primary">21日 クズ部 竹垣作成</span><br>
-            <span class="text-danger">22日 O</span><br>
-            <span class="text-primary">28日 フリー(現地見学OK)</span><br>
-            <span class="text-danger">29日 だてモノ</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">07月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">05日 O</span><br>
-            <span class="text-danger">06日 O</span><br>
-            <span class="text-primary">12日 O</span><br>
-            <span class="text-danger">13日 O</span><br>
-            <span class="text-primary">19日 クズ部</span><br>
-            <span class="text-danger">20日 クズ部</span><br>
-            <span class="text-danger">21日 クズ部</span><br>
-            <span class="text-primary">26日 O</span><br>
-            <span class="text-danger">27日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">08月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">02日 O</span><br>
-            <span class="text-danger">03日 O</span><br>
-            <span class="text-primary">09日 O</span><br>
-            <span class="text-danger">10日 O</span><br>
-            <span class="text-primary">13日 TRPG部</span><br>
-            <span class="text-primary">14日 TRPG部</span><br>
-            <span class="text-primary">15日 TRPG部</span><br>
-            <span class="text-primary">16日 O</span><br>
-            <span class="text-danger">17日 O</span><br>
-            <span class="text-primary">23日 クズ部</span><br>
-            <span class="text-danger">24日 クズ部</span><br>
-            <span class="text-primary">30日 O</span><br>
-            <span class="text-danger">31日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">09月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">06日 O</span><br>
-            <span class="text-danger">07日 O</span><br>
-            <span class="text-primary">13日 混沌の騎士団</span><br>
-            <span class="text-danger">14日 混沌の騎士団 TRPG部</span><br>
-            <span class="text-danger">15日 TRPG部</span><br>
-            <span class="text-primary">20日 O</span><br>
-            <span class="text-danger">21日 O</span><br>
-            <span class="text-danger">23日 O</span><br>
-            <span class="text-primary">27日 クズ部</span><br>
-            <span class="text-danger">28日 クズ部</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">10月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">04日 O</span><br>
-            <span class="text-danger">05日  O</span><br>
-            <span class="text-primary">11日 混沌の騎士団</span><br>
-            <span class="text-danger">12日 混沌の騎士団</span><br>
-            <span class="text-danger">13日 混沌の騎士団 朝 KSKグループ</span><br>
-            <span class="text-primary">18日 O</span><br>
-            <span class="text-danger">19日 O</span><br>
-            <span class="text-primary">25日 O</span><br>
-            <span class="text-danger">26日 O</span><br>
-            <span class="text-danger">31日 発火ソン</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">11月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">01日 発火ソン クズ部</span><br>
-            <span class="text-danger">02日 クズ部</span><br>
-            <span class="text-danger">03日 O</span><br>
-            <span class="text-primary">08日 TRPG部</span><br>
-            <span class="text-danger">09日 TRPG部</span><br>
-            <span class="text-primary">15日 O</span><br>
-            <span class="text-danger">16日 O</span><br>
-            <span class="text-primary">22日 混沌の騎士団</span><br>
-            <span class="text-danger">23日 混沌の騎士団</span><br>
-            <span class="text-danger">24日 混沌の騎士団</span><br>
-            <span class="text-primary">29日 O</span><br>
-            <span class="text-danger">30日 O</span><br>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="panel panel-success panel-schedule">
-          <div class="panel-heading">
-            <h3 class="panel-title">12月</h3>
-          </div>
-          <div class="panel-body" style="min-height: 295px;">
-            <span class="text-primary">06日 O</span><br>
-            <span class="text-danger">07日 O</span><br>
-            <span class="text-primary">13日 O</span><br>
-            <span class="text-danger">14日 O</span><br>
-            <span class="text-primary">20日 O</span><br>
-            <span class="text-danger">21日 O</span><br>
-            <span class="text-danger">23日 O</span><br>
-            <span class="text-primary">27日 O</span><br>
-            <span class="text-danger">28日 O</span><br>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row tj-h2">
-      <div class="col-md-12">
-        <h2>所在地・連絡先</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class=" col-md-6">
-        <div class="center-block">
-          <a class="twitter-timeline" data-chrome="nofooter" href="https://twitter.com/hashtag/%E3%81%B5%E3%81%98%E3%81%BF%E9%87%8E%E3%83%AD%E3%82%B0%E3%83%8F%E3%82%A6%E3%82%B9" data-widget-id="426663732450586624">#ふじみ野ログハウス のツイート</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-
-        <div class="thumbnail">
-          <div class="caption">
-            <h4>マネージャー紹介</h4>
-            <p>ふじみ野ログハウスの管理をしている手嶋です。コミュニティ活動を応援するのがライフワークです。「◯◯サークルのオフ会で使いたいんだけど？」なんて感じで、気軽にお問い合わせください。アマチュアクラブ集金サービスの<a href="http://pne.club">PNE.club</a>利用者を優遇します。</p>
-            <div class="row">
-              <div class="col-md-6">
-                <h5>連絡先</h5>
-                <p>名前: 手嶋 守</p>
-                <p>Twitter: <a href="https://twitter.com/tejima">@tejima</a></p>
-                <p>e-mail: tejima@gmail.com</p>
-              </div>
-              <div class="col-md-6 col-xs-6">
-                <img src="images/tejima_hondana.jpg" class="img-responsive" alt="...">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="panel panel-default">
-          <div class="panel-heading">埼玉県富士見市勝頼 183</div>
-          <div class="panel-body">
-            <p>最寄駅：東武東上線ふじみ野駅<br>徒歩30分（タクシー1,000円）</p>
-            <p>迎車はダイヤモンドタクシー 049-248-2255 で「手嶋」または「勝頼183 ログハウス」で。</p>
-            <p>駅駐輪場にハウス所有の自転車あり（1台）</p>
-            <img src="http://p.pne.jp/d/201401311823.png" alt="" class="img-responsive">
-            <a target="_blank" href="http://goo.gl/maps/IHoJV">GoogleMapで開く</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<!-- Bootstrap core JavaScript
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
+
 </html>
