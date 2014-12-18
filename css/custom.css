@@ -46,21 +46,18 @@ body{
 	margin-bottom: 80px;
 }
 .entrysheet p{
-	margin-bottom: 70px;	
+	margin-bottom: 70px;
 }
 .tj-h1 {
-	margin-bottom: 15px;
-}
-.tj-h1 h1{
-	margin-top: 35px;
+	margin-bottom: 20px;
 }
 
 .tj-h2 h2{
 	background-color: #efefef;
 	height: 50px;
 	padding: 9px;
-	margin-top: 40px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 /* ===== Navbar ===== */
